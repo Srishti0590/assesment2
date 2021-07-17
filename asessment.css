@@ -1,0 +1,255 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   
+}
+/* #darkmode:{
+    background-color: black;
+} */
+
+.firstpage{
+    background-image: url(image1.jpg);
+    width:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;  
+}
+.navbar{
+    background-color: #257dcf;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+} 
+ul, li{
+    display: inline-block;
+    color: white;
+    cursor:default;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    font-size: 18px; 
+}  
+
+li:hover{
+    text-decoration: underline;
+}
+#home{
+    font-size: 40px;
+    padding-right: 550px;
+    padding-left: 10px;
+}
+#home:hover, #home1:hover{
+    color:rgb(226, 69, 11);
+    text-decoration: none;
+    
+}
+#textbox{
+    height: 25px;
+    width:200px;
+    border-radius: 50px;
+    padding: 8px;
+    text-align: left;
+    font-size: 15px;
+}
+.content{
+    margin-top: 200px;
+    margin-left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+#button1{
+    width:170px;
+    height:50px;
+    border-radius: 10px;
+    padding:10px;
+    margin-top:40px;
+    font-size: 15px;
+    transition: transform.2s;
+}
+#button1:hover{
+    background-color: transparent;
+    color: white;
+    transform: scale(1.03);
+}
+#button2{
+    width:130px;
+    height:50px;
+    border-radius: 10px;
+    padding:10px;
+    margin-top:40px;
+    background-color: transparent;
+    font-size: 20px;
+    color: white;
+    transition: transform.2s;
+}
+#button2:hover{
+    background-color: white;
+    color:black;
+    transform: scale(1.03);
+}
+
+.secondpage, .fourthpage{
+    margin-top: 70px;
+    
+    padding-left: 150px;
+    padding-right:150px ;
+    display: flex;
+    flex-direction: row;
+}
+#flex{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+#flex1{
+    display: flex;
+    flex-direction: row;  
+}
+#flex2{
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+#emoji{
+    color: rgb(243, 89, 33);
+}
+.thirdpage, .eighthpage{
+    margin-top: 70px;
+    padding-left: 350px;
+    padding-right:350px ;
+    text-align: center;
+    font-size: 22px;
+    border-color: solid black;
+    
+}
+.main{
+    display:inline-flex;
+    margin-left: 80px;
+    
+}
+#do1{
+    font-size: 17px;
+    margin-left: 50px;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    width:400px;
+    
+}
+#do1:hover{
+    border:10px;
+    box-shadow: 0px 0 10px rgb(138, 136, 136);
+}
+.thirdflex{
+    color: rgb(65, 64, 64);
+    font-size:18px;
+    line-height: 1.6;
+    padding: 20px;
+}
+.flex3, .flex6{
+    display: inline-flex;
+    flex-direction: column;
+    padding: 30px;
+}
+#hov:hover{
+    cursor: pointer;
+    color:chocolate;
+}
+#hov1{
+    color:chocolate;
+    cursor: pointer;
+}
+
+.sixthpage{
+    display: inline-flex;
+    flex-direction: row;
+    margin-left:200px;
+}
+#flexsix{
+    padding-left:70px;
+    padding-top: 40px;
+    display:inline-flex;
+    flex-direction: column;
+}
+
+.seventhpage{
+    margin-top: 70px;
+    background-image: url(image9.jpg);
+    width:100%;
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#seven{
+    padding-top: 150px;
+    padding-left: 150px;
+    padding-right: 700px;
+    color: white;
+    font-size: 20px;
+}
+#but1{
+    border-color:solid black;
+    border-radius: 5px;
+    margin-top: 30px;
+    padding: 15px;
+    font-size: 20px;
+
+
+}
+#dat{
+    text-align: right;
+    font-size: 20px;
+    font-family: cursive;
+}
+#hov2:hover{
+    color:deepskyblue;
+
+}
+.footer{
+    margin-top: 70px;
+    height:400px;
+    background-color: black;
+    color: white;
+    display: inline-flex;
+    flex-direction: row;
+}
+#footerflex{
+    margin: 40px;
+    font-size: 20px;
+}
+#footerflex1{
+    display: inline-flex;
+    flex-direction: column;
+}
+#email{
+    padding:10px;
+    font-size: 20px;
+    height: 30px;
+}
+#footerbutton{
+    background-color: coral;
+    height: 55px;
+    width: 55px;
+}
+.footer1{
+    background-color: black;
+    height: 100px;
+    width: 100%;
+}
+#horizontalline{
+    border-top: 6px, solid white;
+     
+}
+#copyright{
+    color: white;
+    display: inline-block;
+    padding-right: 400px;
+}
